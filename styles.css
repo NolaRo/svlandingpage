@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "panther";
+  src: url("panther.ttf");
+}
+.login,
+.register {
+  float: right;
+  margin-right: 10px;
+}
+.navbar {
+  padding: 10px;
+}
+.navlink-container {
+  display: inline-block;
+  text-align: center;
+}
+.coaching-title {
+  text-align: center;
+  font-size: 48px;
+  display: block;
+}
+.coaching-content {
+  text-align: center;
+}
+.coaching-description {
+  display: block;
+}
+.video-container {
+  position: relative;
+}
+.landing-video {
+  position: absolute;
+  z-index: 1;
+}
+.videooverlay {
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 50;
+  color: #94d52c;
+  font-family: "panther";
+}
+.overlaylinks {
+  margin-right: 10px;
+  margin-left: 10px;
+}
