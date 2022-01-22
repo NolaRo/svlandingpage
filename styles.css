@@ -27,12 +27,14 @@
 }
 .video-container {
   position: relative;
+  height: 760px;
 }
 .landing-video {
   position: absolute;
   z-index: 1;
 }
 .videooverlay {
+  bottom: 0;
   z-index: 2;
   position: absolute;
   text-align: center;
