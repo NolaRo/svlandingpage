@@ -14,7 +14,7 @@
   display: inline-block;
   text-align: center;
 }
-.coaching-title {
+.offerings-title {
   text-align: center;
   font-size: 48px;
   display: block;
@@ -43,7 +43,31 @@
   color: #94d52c;
   font-family: "panther";
 }
+.overlaylinks-container > a {
+  text-decoration: none;
+  color: #94d52c;
+}
+.overlaylinks-container > a:hover {
+  color: #d57f16;
+}
+
 .overlaylinks {
   margin-right: 10px;
   margin-left: 10px;
+}
+.offerings-content {
+  padding: 105px;
+}
+.offerings-picture {
+  height: 300px;
+  /* width: 500px; */
+}
+.offerings-container {
+  border: 3px;
+  padding: 20px;
+}
+.offerings-child {
+  width: 50%;
+  float: left;
+  padding: 20px;
 }
