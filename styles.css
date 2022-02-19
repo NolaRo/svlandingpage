@@ -1,6 +1,14 @@
 @font-face {
   font-family: "panther";
-  src: url("panther.ttf");
+  src: url("assets/panther.ttf");
+}
+@font-face {
+  font-family: "alexbrush-regular";
+  src: url("assets/AlexBrush-Regular.ttf");
+}
+@font-face {
+  font-family: "acherus light";
+  src: url("assets/acherus-grotesque-light.ttf");
 }
 .login,
 .register {
@@ -14,60 +22,67 @@
   display: inline-block;
   text-align: center;
 }
-.offerings-title {
-  text-align: center;
-  font-size: 48px;
-  display: block;
-}
-.coaching-content {
-  text-align: center;
-}
-.coaching-description {
-  display: block;
-}
-.video-container {
-  position: relative;
-  height: 760px;
-}
 .landing-video {
   position: absolute;
   z-index: 1;
 }
 .videooverlay {
   bottom: 0;
-  z-index: 2;
+  z-index: 6;
   position: absolute;
   text-align: center;
   width: 100%;
-  font-size: 50;
+  font-size: 95;
   color: #94d52c;
   font-family: "panther";
 }
 .overlaylinks-container > a {
   text-decoration: none;
   color: #94d52c;
+  text-shadow: 2px 2px 4px #000000;
 }
-.overlaylinks-container > a:hover {
-  color: #d57f16;
-}
-
 .overlaylinks {
   margin-right: 10px;
   margin-left: 10px;
 }
-.offerings-content {
-  padding: 105px;
-}
-.offerings-picture {
-  height: 300px;
-  /* width: 500px; */
+.overlaylinks-container > a:hover {
+  color: #d57f16;
 }
 .offerings-container {
-  border: 3px;
-  padding: 20px;
+  border: 0px;
+  padding: 50px;
 }
+.offerings-title {
+  text-align: center;
+  font-size: 48px;
+  display: block;
+  font-family: "alexbrush-regular";
+}
+.description {
+  font-family: "acherus light";
+  text-align: center;
+  display: block;
+}
+
+.video-container {
+  position: relative;
+  height: 760px;
+}
+
+.offerings-picture {
+  height: 500px;
+  width: 300px;
+}
+
 .offerings-child {
   width: 50%;
+  float: right;
+  padding: 300px;
+  box-sizing: border-box;
+}
+.offerings-child2 {
+  width: 50%;
   float: left;
-  padding: 20px;
+  padding: 200px;
+  box-sizing: border-box;
 }
