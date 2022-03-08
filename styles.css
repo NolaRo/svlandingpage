@@ -22,6 +22,12 @@ body {
   height: 80px;
   width: 80px;
 }
+.site-title {
+  text-align: center;
+  font-size: 60px;
+  display: block;
+  font-family: "alexbrush-regular";
+}
 .navlink-container {
   display: inline-block;
   text-align: center;
@@ -77,38 +83,39 @@ body {
 .overlaylinks-container > a:hover {
   color: #d57f16;
 }
+.offerings-title {
+  font-family: "alexbrush-regular";
+  font-size: 60px;
+  text-align: center;
+}
 .offerings-container {
   border: 0px;
   padding: 50px;
 }
-.site-title {
-  text-align: center;
-  font-size: 60px;
-  display: block;
-  font-family: "alexbrush-regular";
-}
 .description {
   font-family: "acherus light";
+  font-size: 36px;
   text-align: center;
   display: block;
 }
 .merch-description {
 }
-
 .offerings-picture {
   height: 500px;
   width: 500px;
 }
-
 .offerings-child {
   width: 50%;
+  height: 100%;
   float: right;
-  padding: 300px;
+  padding: 100px;
   box-sizing: border-box;
 }
 .offerings-child2 {
   width: 50%;
+  height: 100%;
+
   float: left;
-  padding: 200px;
+  padding: 100px;
   box-sizing: border-box;
 }
