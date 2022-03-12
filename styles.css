@@ -92,18 +92,30 @@ body {
   border: 0px;
   padding: 50px;
 }
+.description-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 .description {
   font-family: "acherus light";
   font-size: 36px;
   text-align: center;
   display: block;
 }
-.merch-description {
+.picture-container {
+  display: flex;
+  overflow: visible;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 .offerings-picture {
-  height: 500px;
-  width: 500px;
+  height: 800px;
+  width: 800px;
+  display: block;
 }
+
 .offerings-child {
   width: 50%;
   height: 100%;
@@ -114,7 +126,6 @@ body {
 .offerings-child2 {
   width: 50%;
   height: 100%;
-
   float: left;
   padding: 100px;
   box-sizing: border-box;
