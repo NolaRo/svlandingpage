@@ -18,6 +18,10 @@ body {
 .navbar {
   padding: 10px;
 }
+.logo-container {
+  display: inline-block;
+  margin-left: 70px;
+}
 .logo-picture {
   display: inline-block;
   height: 80px;
@@ -41,12 +45,9 @@ body {
 .navlink {
   padding: 10px;
 }
-.logo-container {
-  display: inline-block;
-  margin-left: 70px;
-}
+
 .login,
-.register {
+.sign-up {
   float: right;
   margin-right: 10px;
   font-size: 26;
@@ -79,12 +80,17 @@ body {
   color: #94d52c;
   text-shadow: 2px 2px 4px #000000;
 }
+.overlaylinks-container > a:hover {
+  color: #d57f16;
+}
+
 .overlaylinks {
   margin-right: 10px;
   margin-left: 10px;
 }
-.overlaylinks-container > a:hover {
-  color: #d57f16;
+.offerings-container {
+  border: 0px;
+  padding: 50px;
 }
 .offerings-title {
   font-family: "alexbrush-regular";
@@ -92,10 +98,7 @@ body {
   text-align: center;
   color: #94d52c;
 }
-.offerings-container {
-  border: 0px;
-  padding: 50px;
-}
+
 .description-container {
   display: flex;
   justify-content: center;
